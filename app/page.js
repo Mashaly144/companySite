@@ -1,10 +1,11 @@
 
-import SectionHeading from '../components/SectionHeading';
+import SectionHeader from '@shared/SectionHeader';
+
 
 export default function Home() {
   return (
     <main>
-      <SectionHeading title='Hello World' />
+      <SectionHeader title='Hello World' />
     </main>
   );
 }
