@@ -1,5 +1,10 @@
 import Image from 'next/image';
+import SectionHeading from './components/SectionHeading';
 
 export default function Home() {
-  return <main>hi mom</main>;
+  return (
+    <main>
+      <SectionHeading title='Hello World' />
+    </main>
+  );
 }
