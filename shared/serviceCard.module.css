@@ -1,0 +1,45 @@
+.serviceCard {
+  background-color: #010c22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header h1 {
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 600;
+  color: white;
+}
+.line {
+  background: linear-gradient(270deg, #362cff 20.37%, #ce93d8 101.85%);
+  width: 60px;
+  height: 1px;
+}
+
+.list {
+}
+
+.list li {
+  color: white;
+  position: relative;
+  margin-left: 10px;
+}
+
+.list li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  background-color: white;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+}
