@@ -1,0 +1,12 @@
+.projectCard {
+  margin-top: 50px;
+  background-color: #010c22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  background-color: #010c22;
+  color: white;
+}

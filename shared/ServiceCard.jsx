@@ -9,13 +9,7 @@ const ServiceCard = () => {
         <h1>Web Design</h1>
       </div>
       <div className={classes.imgHolder}>
-        <Image
-          width={100}
-          height={100}
-          src='../'
-          alt='img service'
-          quality={100}
-        />
+        <img src='/assets/service.png' alt='img service' />
       </div>
       <div>
         <ul className={classes.list}>

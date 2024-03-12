@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 
 .header {
@@ -23,13 +25,18 @@
   height: 1px;
 }
 
-.list {
+.imgHolder {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-block: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
 }
 
 .list li {
   color: white;
   position: relative;
   margin-left: 10px;
+  margin-block: 10px;
 }
 
 .list li::before {
