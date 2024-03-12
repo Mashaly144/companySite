@@ -9,7 +9,9 @@
     text-wrap: balance;
   }
 }
-
+.app{
+  z-index: 100;
+}
 .gradient {
   background: linear-gradient(270deg, #362cff 20.37%, #ce93d8 101.85%);
   background-clip: text;
