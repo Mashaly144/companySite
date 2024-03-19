@@ -1,26 +1,24 @@
-'use client';
-import Link from 'next/link';
-import classes from './projectCard.module.css';
-const ProjectCard = () => {
+"use client";
+import Link from "next/link";
+import classes from "./projectCard.module.css";
+const ProjectCard = (props) => {
   return (
     <section className={classes.projectCard}>
       <div className={classes.infoCard}>
-        <img src='/assets/project-img.png' alt='project-img' />
+        <img src={props.image} alt="project-img" />
         <div className={classes.info}>
-          <p>Express Design Mobile</p>
-          <h4>Mobile Applecation</h4>
+          <p>{props.category} </p>
+          <h4>{props.description} </h4>
           <div>
-            <span>#HTML</span>
-            <span>#css</span>
-            <span>#HTML</span>
+            <span>#{props.subcategory}</span>
           </div>
-          <Link href={'/'} className={classes.infoBtn}>
+          <Link href={props.link} className={classes.infoBtn}>
             <button>View Project</button>
           </Link>
         </div>
       </div>
       <div>
-        <h2>Project 1</h2>
+        <h2>{props.name}</h2>
       </div>
     </section>
   );

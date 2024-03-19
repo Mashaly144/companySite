@@ -1,17 +1,14 @@
-import PageHeader from '@shared/PageHeader';
-import ProjectCard from '@shared/ProjectCard';
-import ReviewCard from '@shared/ReviewCard';
-import SectionHeader from '@shared/SectionHeader';
-import ServiceCard from '@shared/ServiceCard';
-
+import "../styles/home.css";
+import LandingSection from "@components/Home/LandingSection";
+import OurServices from "@components/Home/OurServices";
+import OurProjects from "@components/Home/OurProjects";
 export default function Home() {
   return (
-    <main>
-      <SectionHeader title='Hello World' />
-      <PageHeader pageName='Project' />
-      <ServiceCard />
-      <ProjectCard />
-      <ReviewCard />
+    <main className="home-page">
+      <LandingSection />
+
+      <OurServices />
+      <OurProjects />
     </main>
   );
 }

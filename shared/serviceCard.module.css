@@ -7,6 +7,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: fit-content;
+  width: 30%;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -31,6 +33,11 @@
   overflow: hidden;
   margin-block: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
+  width: 149px;
+  height: 149px;
+}
+.imgHolder img {
+  max-width: 200% !important;
 }
 
 .list li {
@@ -41,7 +48,7 @@
 }
 
 .list li::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: -10px;
