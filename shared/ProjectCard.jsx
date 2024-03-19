@@ -1,17 +1,22 @@
 'use client';
+import Link from 'next/link';
 import classes from './projectCard.module.css';
 const ProjectCard = () => {
   return (
     <section className={classes.projectCard}>
-      <div>
+      <div className={classes.infoCard}>
         <img src='/assets/project-img.png' alt='project-img' />
         <div className={classes.info}>
-          <p>Lorem, ipsum dolor.</p>
+          <p>Express Design Mobile</p>
           <h4>Mobile Applecation</h4>
           <div>
             <span>#HTML</span>
+            <span>#css</span>
+            <span>#HTML</span>
           </div>
-          <button>View Project</button>
+          <Link href={'/'} className={classes.infoBtn}>
+            <button>View Project</button>
+          </Link>
         </div>
       </div>
       <div>

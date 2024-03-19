@@ -1,0 +1,33 @@
+.reviewCard {
+  background-color: #010c22;
+  border: #09aff4 solid 2px;
+  border-radius: 20px;
+  color: white;
+  padding: 30px;
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+}
+.infoCard .quote {
+  align-self: flex-end;
+}
+.infoDescription {
+  margin-block: 20px;
+}
+.reviewNameInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.reviewNameInfo h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.reviewNameInfo p {
+  color: #8ca9d3;
+  font-size: 14px;
+}

@@ -1,0 +1,34 @@
+.pageHeader {
+  /* background-image: url('../../assets/pageCover.png'); */
+  background-color: rgb(15, 15, 24);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 100px;
+  gap: 10px;
+}
+
+.title {
+  color: white;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.path {
+  background-color: rgba(255, 255, 255, 0.788);
+  padding: 20px;
+  border-left: #09aff4 solid 6px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.path span {
+  font-weight: 600;
+}
