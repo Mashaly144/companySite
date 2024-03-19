@@ -1,0 +1,54 @@
+.home-page {
+  .landing-section {
+    background-image: url(../public/assets/header.svg);
+    background-size: cover;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .landing-section h1 {
+    text-align: center;
+    font-family: "Paytone One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+
+    letter-spacing: 4px;
+    background: var(
+      --primary,
+      linear-gradient(270deg, #362cff 20.37%, #ce93d8 101.85%)
+    );
+    margin-bottom: 35px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .landing-section p {
+    color: var(--text-body, #8ca9d3);
+    text-align: center;
+    font-family: "Paytone One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    margin-bottom: 40px;
+  }
+
+  .count-down-holder {
+    background-image: url(../public/assets/countdown-bg.svg);
+    background-size: cover;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: -120px;
+    h1 {
+      color: var(--withe, #fff);
+      text-align: center;
+      font-family: "Paytone One";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px;
+    }
+  }
+}

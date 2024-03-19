@@ -1,6 +1,9 @@
 import axios from "axios";
 
 const BASE_URL = axios.create({
-  baseURL: "https://adminmasark.bermeejo.com/api",
+  baseURL: "https://adminbermejodev.bermeejo.com/api",
+  headers: {
+    localization: "en",
+  },
 });
 export default BASE_URL;
