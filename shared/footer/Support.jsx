@@ -4,13 +4,17 @@ import React from 'react';
 const Support = () => {
   return (
     <div>
-      <h2 className='text-2xl mb-3'>Support</h2>
+      <h2 className='text-2xl font-semibold mb-3 text-secondary'>
+        Our Services
+      </h2>
       <ul className='flex flex-col gap-2'>
-        <li className='text-secondary'>
-          <Link href='/'>Login</Link>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
+          <Link href='/'>Web Design</Link>
         </li>
-        <li className='text-secondary'>
-          <Link href='/'>My Account</Link>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
+          <Link href='/'>Mobile Application</Link>
         </li>
       </ul>
     </div>

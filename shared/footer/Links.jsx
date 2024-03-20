@@ -4,25 +4,35 @@ import React from 'react';
 const Links = () => {
   return (
     <div>
-      <h2 className='text-2xl mb-3'>Links</h2>
+      <h2 className='text-2xl font-semibold mb-3 text-secondary'>Our Links</h2>
       <ul className='flex flex-col gap-2'>
-        <li className='text-secondary '>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
           <Link href='/'>Home</Link>
         </li>
-        <li className='text-secondary '>
-          <Link href='/'>Classes</Link>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
+          <Link href='/'>About Us</Link>
         </li>
-        <li className='text-secondary '>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
+          <Link href='/'>Projects</Link>
+        </li>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
           <Link href='/'>Services</Link>
         </li>
-        <li className='text-secondary '>
-          <Link href='/'>Bmi</Link>
-        </li>
-        <li className='text-secondary '>
-          <Link href='/'>Blog</Link>
-        </li>
-        <li className='text-secondary '>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
           <Link href='/'>Contact Us</Link>
+        </li>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
+          <Link href='/'>Privacy Policy</Link>
+        </li>
+        <li className='text-white flex items-center gap-2 cursor-pointer'>
+          <img src='/icons/star.png' alt='logo' />
+          <Link href='/'>Terms, Conditions</Link>
         </li>
       </ul>
     </div>

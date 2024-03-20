@@ -3,29 +3,30 @@ import Contact from './Contact';
 import Social from './Social';
 import Links from './Links';
 import Support from './Support';
-
+import './footer.css';
 const Footer = () => {
   return (
-    <footer className='overflow-hidden bg-slate-50'>
-      <div className='pt-5 bg-neutral-600'>
+    <footer className='footer overflow-hidden '>
+      <div className='pt-5'>
         <div className='container mx-auto'>
           <div>
-            <div className='grid grid-cols-12 justify-stretch items-start lg:justify-items-center section gap-10  md:gap-8 lg:gap-28'>
+            <div className='grid grid-cols-12 justify-stretch items-start lg:justify-items-center gap-10 md:gap-8 lg:gap-28 py-8'>
               <div className='col-span-12 md:col-span-12 lg:col-span-4'>
                 <Social />
               </div>
               <div className='col-span-12 md:col-span-3 lg:col-span-2'>
                 <Links />
               </div>
-              <div className='col-span-12 md:col-span-3 lg:col-span-1'>
+              <div className='col-span-12 md:col-span-3 lg:col-span-3'>
                 <Support />
               </div>
-              <div className='col-span-12 md:col-span-5 lg:col-span-3 xl:col-span-4'>
+              <div className='col-span-12 md:col-span-5 lg:col-span-3'>
                 <Contact />
               </div>
             </div>
-            <p className='border-t border-t-background-light  text-center py-5'>
-              Copyright 2024
+            <p className='border-t border-t-background-light border-t-purple-900  text-center py-5 text-white'>
+              Copyrighe 2024 All rights reserved. Powered by{' '}
+              <span className='gradient-text'>Bermejo Company</span>
             </p>
           </div>
         </div>

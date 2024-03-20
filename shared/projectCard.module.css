@@ -6,6 +6,7 @@
   align-items: center;
   border-top: #09aff4 5px solid;
   width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .infoCard {
   background-color: #010c22;
