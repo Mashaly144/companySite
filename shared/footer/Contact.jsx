@@ -1,11 +1,10 @@
 import React from 'react';
 
-
 const Contact = () => {
   return (
-    <section className='bg-background-section py-6'>
+    <section className='py-6'>
       <div className='container mx-auto'>
-        <div className='flex justify-between  flex-col md:flex-row lg:flex-row gap-5'>
+        <div className='flex flex-col gap-8 items-start'>
           <div className='flex items-center justify-start lg:justify-start  gap-4 flex-1'>
             <img src='/icons/location.png' alt='icon' />
             <p>5th flore, 700/D kings roed, green lane new york -1782</p>

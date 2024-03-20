@@ -6,9 +6,8 @@ import Support from './Support';
 
 const Footer = () => {
   return (
-    <footer className='overflow-hidden'>
-      <Contact />
-      <div className='pt-5 bg-black'>
+    <footer className='overflow-hidden bg-slate-50'>
+      <div className='pt-5 bg-neutral-600'>
         <div className='container mx-auto'>
           <div>
             <div className='grid grid-cols-12 justify-stretch items-start lg:justify-items-center section gap-10  md:gap-8 lg:gap-28'>
@@ -22,7 +21,7 @@ const Footer = () => {
                 <Support />
               </div>
               <div className='col-span-12 md:col-span-5 lg:col-span-3 xl:col-span-4'>
-                {/* <Subscribe /> */}
+                <Contact />
               </div>
             </div>
             <p className='border-t border-t-background-light  text-center py-5'>
