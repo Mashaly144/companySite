@@ -12,27 +12,27 @@ const Links = () => {
         </li>
         <li className='text-white flex items-center gap-2 cursor-pointer'>
           <img src='/icons/star.png' alt='logo' />
-          <Link href='/'>About Us</Link>
+          <Link href='/aboutUs'>About Us</Link>
         </li>
         <li className='text-white flex items-center gap-2 cursor-pointer'>
           <img src='/icons/star.png' alt='logo' />
-          <Link href='/'>Projects</Link>
+          <Link href='/projects'>Projects</Link>
         </li>
         <li className='text-white flex items-center gap-2 cursor-pointer'>
           <img src='/icons/star.png' alt='logo' />
-          <Link href='/'>Services</Link>
+          <Link href='/services'>Services</Link>
         </li>
         <li className='text-white flex items-center gap-2 cursor-pointer'>
           <img src='/icons/star.png' alt='logo' />
-          <Link href='/'>Contact Us</Link>
+          <Link href='/contactUs'>Contact Us</Link>
         </li>
         <li className='text-white flex items-center gap-2 cursor-pointer'>
           <img src='/icons/star.png' alt='logo' />
-          <Link href='/'>Privacy Policy</Link>
+          <Link href='/privacy'>Privacy Policy</Link>
         </li>
         <li className='text-white flex items-center gap-2 cursor-pointer'>
           <img src='/icons/star.png' alt='logo' />
-          <Link href='/'>Terms, Conditions</Link>
+          <Link href='/terms'>Terms, Conditions</Link>
         </li>
       </ul>
     </div>
